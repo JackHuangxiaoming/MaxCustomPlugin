@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<graph version="0.50" uuid="c43f9905-e06b-4fa2-8984-d27ba2c96ec8">
+  <meta_info>
+    <graph_version guid="3573a7a5-9ae9-477f-aac3-b711139136b1" number="0.0.2" />
+    <identifier>Test</identifier>
+    <displayName>测试工具</displayName>
+    <author>Huang</author>
+    <graph_editor_UI>true</graph_editor_UI>
+  </meta_info>
+  <nodes>
+    <node operator="NodeName" id="2" position="580:280" size="150:0" />
+    <node operator="Map" id="1" position="300:140" size="150:0" />
+    <node operator="AllNodes" id="0" position="27:108" size="150:0" />
+  </nodes>
+  <connections>
+    <connection sourcenode="0" destnode="1" sourceport="0" destport="0" />
+    <connection sourcenode="1" destnode="2" sourceport="0" destport="0" />
+  </connections>
+</graph>
